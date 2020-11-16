@@ -1,0 +1,89 @@
+/*============================================================
+============================nav style required css start===========
+=============================================================*/
+ul.unstyled li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 8px;
+}
+
+a.nav_text {
+  color: white;
+}
+
+a.nav_text:hover {
+  color: orange;
+}
+
+@media (max-width:768px) {
+  ul.unstyled li {
+    margin-bottom: 10px;
+  }
+
+  .mt_sp {
+    margin-top: 24px;
+  }
+}
+
+/*============================================================
+============================nav style required css end========
+=============================================================*/
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-style: italic;
+}
+.weight{
+  font-weight:900;
+}
+.weight_1{
+  font-weight:700;
+}
+.weight_sm{
+  font-weight:600;
+}
+.top_section{
+  background:#39a1ff;
+  height: 100vh;
+
+}
+.sp_height{
+  height:500px !important;
+}
+.bg_sk {
+    text-shadow:  6px 4px 2px #1c1919;
+}
+.nav_bg{
+  background: #0000 !important;
+    font-style: normal;
+}
+.services{
+  background-image:linear-gradient(45deg,#39a1ff9e,#39a1ffa8), url(../img/3159551.jpg)
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+  .top_section{
+    height: auto;
+
+  }
+  .sp_height{
+    height:600px !important;
+  }
+}
+
+}
